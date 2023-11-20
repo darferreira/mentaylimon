@@ -20,6 +20,10 @@ img, iframe {
     height: auto;
 }
 
+ul {
+    padding: 0;
+}
+
 .main {
     max-width: 980px;
     margin: 0 auto;
@@ -183,3 +187,53 @@ img, iframe {
     display: block;
     width: 100%;
 }
+
+
+/* Formulario contacto */
+.seccion-contacto {
+    padding: 2rem;
+}
+
+.seccion-contacto__boton {
+    background-color: #613c41;
+    border-color: #613c41;
+}
+
+.mb-3 textarea {
+    height:150px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    resize: none;
+  }
+
+.seccion-contacto__boton:hover {
+    background-color: #6e575b;
+    border-color: #613c41;
+}
+
+.seccion-contacto__input:focus {
+    border-color: #6e575b;
+    box-shadow: 0 1px 1px rgba(249, 102, 121, 0.075)inset, 0 0 8px rgba(97, 60, 65,0.6); 
+    outline: 0 none;
+}
+
+.seccion-contacto__boton:active{
+    background-color: rgb(110, 87, 91);
+}
+
+.seccion-contacto__boton:focus{
+    background-color: rgb(110, 87, 91);
+    border-color: #613c41;
+    box-shadow: 0 1px 1px rgba(249, 102, 121, 0.075)inset, 0 0 8px rgba(249, 102, 121,0.6);
+}
+
+.seccion-contacto__boton:active{
+    background-color: rgb(110, 87, 91) !important;
+    border-color: #613c41 !important;
+    box-shadow: 0 1px 1px rgba(249, 102, 121, 0.075)inset, 0 0 8px rgba(249, 102, 121,0.6);
+}
+
+
+  
