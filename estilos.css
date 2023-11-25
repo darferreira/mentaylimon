@@ -44,9 +44,11 @@ ul {
 }
 
 .header__titulo {
+    font-family: 'Berkshire Swash', sans-serif;
+    letter-spacing: 5px;
     text-align: center;
     color: #fff;
-    font-size: 55px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -183,10 +185,6 @@ ul {
     justify-content: center;
 }
 
-.seccion-banner__img {
-    display: block;
-    width: 100%;
-}
 
 
 /* Formulario contacto */

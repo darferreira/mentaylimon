@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -29,29 +29,29 @@
 		</section>
         <section class="seccion-contacto">
             <h1 class="text-center">Contáctanos</h1>
-            <form>
+            <form action="https://formspree.io/f/xvojnykr" method="post">
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
                     <input type="text" class="form-control seccion-contacto__input" id="nombre"
-                        placeholder="Tu nombre">
+                        placeholder="Tu nombre" name="nombre">
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo Electronico</label>
                     <input type="email" class="form-control seccion-contacto__input" id="email"
-                        placeholder="email@ejemplo.com">
+                        placeholder="email@ejemplo.com" name="email">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="tipo">Tipo de consulta</label>
-                    <select id="tipo" class="form-select seccion-contacto__input" aria-label="Default select example">
+                    <select id="tipo" class="form-select seccion-contacto__input" aria-label="Default select example" name="tipo">
                         <option selected>Seleccione una opcion</option>
-                        <option value="1">Ayuda</option>
-                        <option value="2">Devolucion</option>
-                        <option value="3">Compra</option>
+                        <option value="ayuda">Ayuda</option>
+                        <option value="devolucion">Devolucion</option>
+                        <option value="compra">Compra</option>
                     </select>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                    <textarea class="form-control seccion-contacto__input" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                    <textarea class="form-control seccion-contacto__input" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" name="mensaje"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary seccion-contacto__boton">Enviar</button>
             </form>
